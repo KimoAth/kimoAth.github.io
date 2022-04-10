@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOUL-L7LIB</title>
+    <script src="https://kit.fontawesome.com/a38e2c92f1.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="pictures/PICTURE.png">
+    <FontAwesomeIcon icon="fa-brands fa-whatsapp" />
+    <FontAwesomeIcon icon="fa-duotone fa-comments" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="anotherstyle.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <!-- <link rel="stylesheet" href="style-mobile.css"> -->
+
+</head>
+<body>
+    <header class="header">
+
+        <a href="#" class="logo">
+            <img src="pictures/another.png" alt="">
+        </a>
+        <a href="banner.html"> 
+            <div class="fas fa-shopping-cart fa-4x" id="cart-btn"><span id="count-el">0</span></div>
+            <!-- <div><img id="cart-btn" src="https://img.icons8.com/windows/32/ffffff/add-shopping-cart.png"><span id="count-el">0</span></div> -->
+        </a>
+        
+        <div class="share">
+            <a id="fb" href="https://web.facebook.com/Moul.l7lib/" target="_blank" class="fab fa-facebook-f"></a>
+            <a id="wts" href="https://wa.me/message/YNNS4WYTERWUP1" target="_blank" class="fab fa-whatsapp"></a>
+            <a id="insta" href="https://www.instagram.com/moulle7lib/" target="_blank" class="fab fa-instagram"></a>
+        </div>
+        <span class="wpml-ls-native icl_lang_sel_native" lang="ar" id="lang"><a href="indexar.html">ع</a></span>
+    </header>
+    <section class="picture">
+        <div class="pict">
+            <img class="image" src="pictures/MOOOOOL L7LIB.jpg" alt="">
+        </div>
+    </section>
+    <section class="description">
+        <div class="descr">
+            <p>Commander par whatsapp au 0663230202  ( Livraison à 10 Dhs tal bab dar )</p>
+        </div>
+        <div class="us">
+            <h3>Lait 100% beldi Marocain  </h3>
+            <p >Notre lait est 100% naturel, sans conservateur. 
+                Il est extrait du lait de vache, nous le récoltons chaque jour dans nos fermes sélectionnées..... 
+                Et c'est ainsi que nous veillons sur la fraîcheur de notre lait cru,
+                Parce que votre santé est la chose la plus importante pour nous.</p>
+        </div>
+    </section>
+    <section class="menu" id="menu">
+        <aside class="aside">
+            <a target="blank" href="https://wa.me/message/YNNS4WYTERWUP1">
+                <!-- <img src="https://img.icons8.com/external-justicon-flat-justicon/64/26e07f/external-whatsapp-social-media-justicon-flat-justicon.png"/> -->
+                <img src="pictures/wtsp.png" alt="">
+            </a>
+        </aside>
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <img class="pic1" src="pictures/milk.jpeg" alt="">
+                <div id="cont" class="content1">
+                    <h3 id="name">Lait beldi </h3>
+                    <h3 id="ti">   1L  </h3>
+                    <div id="price1" class="prix">
+                        7.00 Dhs
+                    </div>
+                    <br>
+                    <div class="counter">
+                        <button class="minus" id="m1" onclick="minus1(),counter1()"> - </button>
+                        <div class="h12" id="choice1"> 1 </div>
+                        <button class="plus"  id="p1" onclick="plus1(),counter1()"> + </button>                              
+                    </div>
+                    <img src="https://img.icons8.com/windows/32/ffffff/add-shopping-cart.png" onclick="increment1()"/>      
+                </div>
+            </div>
+            <div class="cart-item">
+                <img class="pic2" src="pictures/lben.jpeg" alt="">
+                <div id="cont" class="content2">
+                    <h3 id="name">Lben beldi </h3>
+                    <h3 id="ti">  1L </h3>
+                    <div id="price2" class="prix">
+                        6.50 Dhs
+                    </div>
+                    <br>
+                    <div class="counter">
+                        <button class="minus" id="m2" onclick="minus2(),counter2()"> - </button>
+                        <div class="h12" id="choice2"> 1 </div>
+                        <button class="plus"  id="p2" onclick="plus2(),counter2()"> + </button>
+                    </div>
+                    <img src="https://img.icons8.com/windows/32/ffffff/add-shopping-cart.png"  onclick="increment2()"/>                
+                </div>
+            </div>
+            <div class="cart-item">
+                <img class="pic3" src="pictures/rayebmess.jpeg" alt="">
+                <div id="cont" class="content3">
+                    <h3 id="name">Rayeb beldi sucré </h3>
+                    <h3 id="ti">  1L </h3>
+                    <div id="price3" class="prix">
+                        13.00 Dhs
+                    </div>
+                    <br>
+                    <div class="counter">
+                        <button  class="minus" id="m3" onclick="minus3(),counter3()"> - </button>
+                        <div class="h12" id="choice3"> 1 </div>
+                        <button class="plus"  id="p3" onclick="plus3(),counter3()"> + </button>
+                    </div>
+                    <img src="https://img.icons8.com/windows/32/ffffff/add-shopping-cart.png"  onclick="increment3()"/>                
+                </div>
+            </div>
+            <div class="cart-item">
+                <img class="pic4" src="pictures/rayeb.jpeg" alt="">
+                <div id="cont" class="content4">
+                    <h3 id="name">rayeb Beldi sans sucre </h3>
+                    <h3 id="ti">  1L </h3>
+                    <div  id="price4" class="prix">
+                        13.00 Dhs
+                    </div>
+                    <br>
+                    <div class="counter">
+                        <button  class="minus"  id="m4" onclick="minus4(),counter4()"> - </button>
+                        <div class="h12" id="choice4"> 1 </div>
+                        <button class="plus"  id="p4" onclick="plus4(),counter4()"> + </button>
+                    </div>
+                    <img src="https://img.icons8.com/windows/32/ffffff/add-shopping-cart.png"  onclick="increment4()"/>                
+                </div>
+            </div>
+            <div class="cart-item">
+                <img class="pic5" src="pictures/zebda.jpg" alt="">
+                <div id="cont" class="content5">
+                    <h3 id="name">Zebda beldia </h3>
+                    <div class="poids">
+                        <button id="poi1" onclick="pr1()">250g</button>
+                        <button id="Poi2" onclick="pr2()">500g</button>
+                        <button id="Poi3" onclick="pr3()">1Kg</button>
+                    </div>
+                    <div id="price5" class="prix">
+                        20.00 Dhs
+                    </div>
+                    <br>
+                    <div class="counter">
+                        <button class="minus"  id="m5" onclick="minus5(),counter5()"> - </button>
+                        <div class="h12" id="choice5"> 1 </div>
+                        <button class="plus"  id="p5" onclick="plus5(),counter5()"> + </button>
+                    </div>
+                    <img src="https://img.icons8.com/windows/32/ffffff/add-shopping-cart.png"  onclick="increment5()"/>                
+
+                </div>
+            </div>
+            <div class="cart-item">
+                <img class="pic6" src="pictures/smen.jpeg" alt="">
+                <div id="cont" class="content6">
+                    <h3 id="name">Smen beldi </h3>
+                    <div class="poids">
+                        <button id="poi1" onclick="pr4()">250g</button>
+                        <button id="Poi2" onclick="pr5()">500g</button>
+                        <button id="Poi3" onclick="pr6()">1Kg</button>
+                    </div>
+                    <div id="price6" class="prix">
+                        37.50 Dhs
+                    </div>
+                    <br>
+                    <div class="counter">
+                        <button class="minus"  id="m6" onclick="minus6(),counter6()"> - </button>
+                        <div class="h12" id="choice6"> 1 </div>
+                        <button  class="plus" id="p6" onclick="plus6(),counter6()"> + </button>
+                    </div>
+                    <img src="https://img.icons8.com/windows/32/ffffff/add-shopping-cart.png"  onclick="increment6()"/>                
+                </div>
+            </div>
+            <div class="cart-item">
+                <img class="pic7" src="pictures/jben.jpeg" alt="">
+                <div id="cont" class="content7">
+                    <h3 id="name">Jben beldi </h3>
+                    <div class="poids">
+                        <button id="poi1" onclick="pr7()">250g</button>
+                        <button id="Poi2" onclick="pr8()">500g</button>
+                        <button id="Poi3" onclick="pr9()">1Kg</button>
+                    </div>
+                    <div id="price7" class="prix">
+                        14.00 Dhs
+                    </div>
+                    <br>
+                    <div class="counter">
+                        <button class="minus"  id="m7" onclick="minus7(),counter7()"> - </button>
+                        <div class="h12" id="choice7"> 1 </div>
+                        <button class="plus"  id="p7" onclick="plus7(),counter7()"> + </button>
+                    </div>
+                    <img src="https://img.icons8.com/windows/32/ffffff/add-shopping-cart.png"  onclick="increment7()"/>                
+                </div>
+            </div>
+            <div class="cart-item">
+                <img class="pic8" src="pictures/jbnzaater.jpeg" alt="">
+                <div id="cont" class="content8">
+                    <h3 id="name">Jben b ze3tar </h3>
+                    <div class="poids">
+                        <button id="poi1" onclick="pr10()">250g</button>
+                        <button id="Poi2" onclick="pr11()">500g</button>
+                        <button id="Poi3" onclick="pr12()">1Kg</button>
+                    </div>
+                    <div id="price8" class="prix">
+                        17.00 Dhs
+                    </div>
+                    <br>
+                    <div class="counter">
+                        <button class="minus"  id="m8" onclick="minus8(),counter8()"> - </button>
+                        <div class="h12" id="choice8"> 1 </div>
+                        <button class="plus"  id="p8" onclick="plus8(),counter8()"> + </button>
+                    </div>
+                    <img src="https://img.icons8.com/windows/32/ffffff/add-shopping-cart.png"  onclick="increment8()"/>                
+                </div>
+            </div>
+            <div class="cart-item">
+                <img class="pic9" src="pictures/jben.jpeg" alt="">
+                <div id="cont" class="content9">
+                    <h3 id="name">Jben avec l'Étang </h3>
+                    <div class="poids">
+                        <button id="poi1" onclick="pr13()">250g</button>
+                        <button id="Poi2" onclick="pr14()">500g</button>
+                        <button id="Poi3" onclick="pr15()">1Kg</button>
+                    </div>
+                    <div id="price9" class="prix">
+                        17.00 Dhs
+                    </div>
+                    <br>
+                    <div class="counter">
+                        <button class="minus"  id="m9" onclick="minus9(),counter9()"> - </button>
+                        <div class="h12" id="choice9"> 1 </div>
+                        <button class="plus"  id="p9" onclick="plus9(),counter9()"> + </button>
+                    </div>
+                    <img src="https://img.icons8.com/windows/32/ffffff/add-shopping-cart.png"  onclick="increment9()"/>                
+                </div>
+            </div>
+            </div>
+            
+    </section>
+    <footer class="footer">
+        <div class="horaire">
+            <strong>Ouverture tous les jours : </strong>
+            <p>10h du matin  - 20h du soir </p>
+        </div>
+        <div class="share">
+            <a href="https://web.facebook.com/Moul.l7lib/" target="_blank"><img src="pictures/fb.png" alt=""></a>
+            <a href="https://wa.me/message/YNNS4WYTERWUP1" target="_blank"><img src="pictures/wts.png" alt=""></a>
+            <a href="https://www.instagram.com/moulle7lib/" target="_blank"><img src="pictures/insta.png" alt=""></a>
+        </div>
+        <div class="livraison">
+            <img src="pictures/livr.jpeg" alt="">
+            <h2 class="liv">Livraison Gratuite <b>(Minimum 200 Dhs)</b></h2>
+        </div>
+        <a href="#"><img src="pictures/MOUL-L7LIB.png" alt="" class="footr" ></a>
+        <form action="">
+            <div class="suggestion">
+                <!-- <img src="pictures/suggestions.png" alt=""> -->
+                <input type="text" placeholder="shi suggestion...."><br><br>
+                <button type="submit">Envoyer</button>
+            </div>
+        </form>
+
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
